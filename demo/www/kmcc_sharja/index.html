@@ -1,0 +1,613 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Laralink">
+  <!-- Favicon Icon -->
+  <link rel="icon" href="assets/img/kmcc-logo.png">
+  <!-- Site Title -->
+  <title>KMCC - Sharjah</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/slick.min.css">
+  <link rel="stylesheet" href="assets/css/odometer.css">
+  <link rel="stylesheet" href="assets/css/light-gallerr.min.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Start Preloader -->
+  <div class="cs_preloader">
+    <div class="cs_preloader_in">
+      <span></span>
+      <span></span>
+    </div>
+
+  </div>
+  <!-- End Preloader -->
+  <!-- Start Header Section -->
+  <header class="cs_site_header cs_style_1 cs_sticky_header">
+    <div class="cs_main_header">
+      <div class="container-fluid">
+        <div class="cs_main_header_in">
+          <div class="cs_main_header_left">
+            <a class="cs_site_branding" href="index.html">
+              <img src="assets/img/kmcc-logo.png" alt="Logo">
+            </a>
+          </div>
+          <div class="cs_main_header_center">
+            <div class="cs_nav">
+              <ul class="cs_nav_list cs_fs_16 cs_bold cs_white_color cs_heading_font text-uppercase">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+
+                <li class="menu_item_has_children"><a href="#">family care enrollment</a>
+                  <ul>
+                    <li><a href="#" class="cs_modal_btn "
+                      data-modal="donation"><span class="cs_btn_text">REGISTER NOW</span></a></li>
+                    <li><a href="membership-form.pdf" download>Register Form</a></li>
+
+                  </ul>
+                <span class="cs_munu_dropdown_toggle"><span></span></span></li>
+
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="cs_main_header_right">
+            <button class="cs_btn cs_style_1 cs_modal_btn cs_accent_bg cs_fs_16 cs_bold cs_white_color cs_radius_30"
+              data-modal="donation"><span class="cs_btn_text">REGISTER NOW</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header Section -->
+  <!-- Start Hero Section -->
+  <section class="cs_slider cs_style_1 cs_heading_bg position-relative" id="hero">
+    <div class="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="900" data-center="0"
+      data-variable-width="0" data-fade-slide="1" data-slides-per-view="1">
+      <div class="cs_slider_wrapper">
+        <div class="cs_slide">
+          <div class="cs_hero cs_style_1 cs_bg_filed position-relative" style="background-image: url(assets/img/banner-1.webp);background-size: cover;background-position: center;">
+            <div class="container">
+              <div class="cs_hero_content">
+                <div class="cs_hero_text">
+                  <h1 class="cs_hero_title cs_fs_90 cs_white_color wow fadeInDown">WELCOME TO KMCC SHARJAH</h1>
+                  <p class="cs_hero_subtitle cs_fs_21 cs_gray_color">
+                    KMCC Family Care എൻറോൾമെന്റ് വഴി, നിങ്ങളും നിങ്ങളുടെ കുടുംബവും അടിയന്തിര സാഹചര്യങ്ങളിൽ സംരക്ഷണം നേടും.
+                     സാമ്പത്തിക സഹായം മുതൽ ആരോഗ്യപരമായ പിന്തുണവരെ ലഭ്യമാക്കുന്ന ഈ പദ്ധതിയിലൂടെ,
+                      നിങ്ങളുടെ കുടുംബത്തിന്റെ സുരക്ഷിതമായ ഭാവി ഉറപ്പാക്കാം. ഇന്ന് തന്നെ നിങ്ങളും ചേരൂ,
+                       നിങ്ങളുടെ കുടുംബത്തിന്റെ ആപത്ക്കാല സംരക്ഷണം ഉറപ്പാക്കൂ.</p>
+                  <div class="cs_btn_group">
+                    <button class="cs_btn cs_style_1 cs_modal_btn cs_accent_bg cs_fs_16 cs_bold cs_white_color cs_radius_30"
+              data-modal="donation"><span class="cs_btn_text">REGISTER NOW</span></button>
+
+                  </div>
+                </div>
+                <a href="https://www.youtube.com/embed/TTKLpqZhQxo?si=u3gyo0aZntoSN8ga"
+                  class="cs_player_btn cs_style_1 cs_video_open cs_center cs_radius_50 wow zoomIn">
+                  <img src="assets/img/icons/player_icon_1.svg" alt="Player Icon"></a>
+              </div>
+            </div>
+            <div class="cs_hero_shape_1 position-absolute">
+              <img src="assets/img/handmade.svg" alt="Shape Image">
+            </div>
+            <div class="cs_hero_shape_2 position-absolute">
+              <img src="assets/img/hero_shape_1.svg" alt="Shape Image">
+            </div>
+          </div>
+        </div>
+        <div class="cs_slide">
+          <div class="cs_hero cs_style_1 cs_bg_filed position-relative"  style="background-image: url(assets/img/banner-2.webp);background-size: cover;background-position: center;">
+            <div class="container">
+              <div class="cs_hero_content">
+                <div class="cs_hero_text">
+                  <h1 class="cs_hero_title cs_fs_90 cs_white_color wow fadeInDown">നിങ്ങളുടെ കുടുംബത്തിന് സുരക്ഷയും പിന്തുണയും</h1>
+                  <p class="cs_hero_subtitle cs_fs_21 cs_gray_color">
+                    KMCC Family Careയിൽ ചേരുക, ആപത്തുകാലങ്ങളിൽ സഹായവും സംരക്ഷണവും ഉറപ്പാക്കൂ.
+                     നിങ്ങളുടെ പ്രിയപ്പെട്ടവരുടെ സുരക്ഷിതമായ ഭാവിക്ക് ഈ പദ്ധതിയുടെ ഭാഗമാകൂ.</p>
+
+                    <div class="cs_btn_group">
+                      <button class="cs_btn cs_style_1 cs_modal_btn cs_accent_bg cs_fs_16 cs_bold cs_white_color cs_radius_30"
+              data-modal="donation"><span class="cs_btn_text">REGISTER NOW</span></button>
+
+                    </div>
+                </div>
+                <a href="https://www.youtube.com/embed/ORFhLho3n5g?si=01bOaG3PPyPDQrEZ" class="cs_player_btn cs_style_1 cs_video_open cs_center cs_radius_50 wow zoomIn">
+                  <img src="assets/img/icons/player_icon_1.svg" alt="Player Icon">
+                </a>
+              </div>
+            </div>
+            <div class="cs_hero_shape_1 position-absolute">
+              <img src="assets/img/handmade.svg" alt="Shape Image">
+            </div>
+            <div class="cs_hero_shape_2 position-absolute">
+              <img src="assets/img/hero_shape_1.svg" alt="Shape Image">
+            </div>
+          </div>
+        </div>
+        <div class="cs_slide">
+          <div class="cs_hero cs_style_1 cs_bg_filed position-relative"  style="background-image: url(assets/img/banner-3.webp);background-size: cover;background-position: center;">
+            <div class="container">
+              <div class="cs_hero_content">
+                <div class="cs_hero_text">
+                  <h1 class="cs_hero_title cs_fs_90 cs_white_color wow fadeInDown">ഒരുമിച്ച്, ഓരോ കുടുംബത്തിനും നാം കരുതുന്നു</h1>
+                  <p class="cs_hero_subtitle cs_fs_21 cs_gray_color">
+                    KMCC Family Care ഒരു കാരുണ്യപദ്ധതിയായി, കുടുംബങ്ങൾക്ക് ഏറ്റവും അവശ്യസമയങ്ങളിൽ
+                     സഹായം നൽകുന്നതാണ് ലക്ഷ്യം. ഈ പദ്ധതിയിൽ ചേർന്നാൽ, സാമ്പത്തിക സുരക്ഷ, ആരോഗ്യപരിപാലനം,
+                      മാനസിക പിന്തുണ എന്നിവയുടെ വലിയൊരു ശൃംഖലയിലേക്കുള്ള പ്രവേശനം ലഭിക്കും.
+                       ആരും അസുഖങ്ങളും കഷ്ടതകളും തനിച്ചുനിൽക്കേണ്ടതില്ല. ഇന്ന് തന്നെ ചേക്കരിച്ച് ഈ കാരുണ്യവലയം അനുഭവിക്കുക!</p>
+                    <div class="cs_btn_group">
+                      <button class="cs_btn cs_style_1 cs_modal_btn cs_accent_bg cs_fs_16 cs_bold cs_white_color cs_radius_30"
+              data-modal="donation"><span class="cs_btn_text">REGISTER NOW</span></button>
+
+                    </div>
+                </div>
+                <a href="https://www.youtube.com/embed/sUxiouWxzCo?si=oy-zI7yOPtYNabd4" class="cs_player_btn cs_style_1 cs_video_open cs_center cs_radius_50 wow zoomIn">
+                  <img src="assets/img/icons/player_icon_1.svg" alt="Player Icon">
+                </a>
+              </div>
+            </div>
+            <div class="cs_hero_shape_1 position-absolute">
+              <img src="assets/img/handmade.svg" alt="Shape Image">
+            </div>
+            <div class="cs_hero_shape_2 position-absolute">
+              <img src="assets/img/hero_shape_1.svg" alt="Shape Image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs_pagination cs_style_1"></div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+  <!-- Start Abnout Section -->
+  <section class="cs_about cs_style_1 position-relative" id="about">
+    <div class="cs_height_150 cs_height_lg_80"></div>
+    <div class="container">
+      <div class="row cs_gap_y_40">
+        <div class="col-lg-6">
+          <div class="cs_about_thumbnail_wrapper">
+            <div class="cs_about_thumbnail_1 cs_radius_5">
+              <img src="assets/img/about_img_1.webp" alt="Image">
+            </div>
+            <div class="cs_about_thumbnail_2 wow fadeInLeft">
+              <img src="assets/img/about_img_2.webp" alt="Image">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="cs_about_content">
+            <div class="cs_section_heading cs_style_1">
+              <h3 class="cs_section_subtitle cs_fs_21 cs_semibold cs_orange_color">About Us</h3>
+              <h2 class="cs_section_title cs_fs_67 mb-0 wow fadeInDown">Bridging Cultures and Communities</h2>
+            </div>
+            <div class="cs_height_28 cs_height_lg_20"></div>
+            <p class="cs_about_text cs_fs_18 mb-0">The Kerala Muslim Cultural Centre (KMCC) is a nonprofit organization dedicated to fostering cultural exchange and humanitarian efforts within and beyond the Muslim community in Kerala. Established in the 1980s, KMCC serves as a vibrant platform for promoting the rich heritage of Kerala’s Muslim culture through various artistic, educational, and social initiatives. The organization actively engages in community development, offering support in education, healthcare, and social justice.</p>
+            <div class="cs_height_34 cs_height_lg_30"></div>
+            <div class="cs_funfact_list cs_style_1">
+              <div class="cs_funfact cs_style_1">
+                <div class="cs_funfact_number cs_fs_67 cs_bold cs_heading_font">
+                  <span class="odometer" data-count-to="600"></span>
+                </div>
+                <p class="cs_sunfact_title cs_fs_18 mb-0">Local Volunteers</p>
+              </div>
+              <div class="cs_funfact cs_style_1">
+                <div class="cs_funfact_number cs_fs_67 cs_bold cs_heading_font">
+                  <span class="odometer" data-count-to="120"></span>
+                  <span>M</span>
+                </div>
+                <p class="cs_sunfact_title cs_fs_18 mb-0">Total Fund Raised</p>
+              </div>
+              <div class="cs_funfact cs_style_1">
+                <div class="cs_funfact_number cs_fs_67 cs_bold cs_heading_font">
+                  <span class="odometer" data-count-to="200"></span>
+                  <span>+</span>
+                </div>
+                <p class="cs_sunfact_title cs_fs_18 mb-0">Project Complete</p>
+              </div>
+              <div class="cs_funfact cs_style_1">
+                <div class="cs_funfact_number cs_fs_67 cs_bold cs_heading_font">
+                  <span class="odometer" data-count-to="5"></span>
+                  <span>K</span>
+                </div>
+                <p class="cs_sunfact_title cs_fs_18 mb-0">World Wide Volunteers</p>
+              </div>
+            </div>
+            <div class="cs_height_45 cs_height_lg_40"></div>
+            <a href="#services" class="cs_btn cs_style_1 cs_accent_bg cs_fs_16 cs_bold cs_white_color cs_radius_30"><span class="cs_btn_text">SEE SERVICES</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cs_about_shape_1 position-absolute">
+      <img src="assets/img/handmade_2.svg" alt="Shape Image">
+    </div>
+    <div class="cs_height_150 cs_height_lg_80"></div>
+  </section>
+  <!-- End Abnout Section -->
+  <!-- Start Services Section -->
+  <section class="cs_gray2_bg" id="services">
+    <div class="cs_height_150 cs_height_lg_80"></div>
+    <div class="container">
+      <div class="cs_section_heading cs_style_1 text-center">
+        <h3 class="cs_section_subtitle cs_fs_21 cs_semibold cs_orange_color">Our Service</h3>
+        <h2 class="cs_section_title cs_fs_67 mb-0 wow flipInX">How We Make a Difference</h2>
+      </div>
+      <div class="cs_height_82 cs_height_lg_60"></div>
+      </div>
+      <div class="cs_slider cs_style_1 cs_slider_gap_24 position-relative wow fadeInUp">
+        <div class="container">
+      <div class="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+        data-variable-width="0" data-xs-slides="1" data-sm-slides="2" data-md-slides="2" data-lg-slides="3"
+        data-add-slides="3" data-slides-per-view="responsive">
+        <div class="cs_slider_wrapper">
+          <div class="cs_slide">
+            <div class="cs_card cs_style_2 position-relative">
+              <div class="cs_card_thumbnail cs_bg_filed cs_radius_15" data-src="assets/img/service_img_1.jpg">
+                <img src="assets/img/ser-1.webp" alt="Service Image">
+              </div>
+              <div class="cs_card_info position-absolute">
+                <h3 class="cs_card_title cs_fs_37 cs_semibold cs_white_color">Cultural Preservation</h3>
+                <p class="cs_card_subtitle cs_white_color mb-0">KMCC aims to preserve and promote the rich cultural heritage of Kerala's Muslim community through various programs, events, and workshops.</p>
+              </div>
+              <div class="cs_card_icon cs_center position-absolute">
+                <img src="assets/img/heart.png" alt="Home Icon">
+              </div>
+            </div>
+          </div>
+          <div class="cs_slide">
+            <div class="cs_card cs_style_2 position-relative">
+              <div class="cs_card_thumbnail cs_bg_filed cs_radius_15" data-src="assets/img/service_img_1.jpg">
+                <img src="assets/img/ser-2.webp" alt="Service Image">
+              </div>
+              <div class="cs_card_info position-absolute">
+                <h3 class="cs_card_title cs_fs_37 cs_semibold cs_white_color">Education</h3>
+                <p class="cs_card_subtitle cs_white_color mb-0">The organization works to provide educational opportunities for underprivileged children and young adults, ensuring they have access to quality education and resources.</p>
+              </div>
+              <div class="cs_card_icon cs_center position-absolute">
+                <img src="assets/img/graduation-cap.png" alt="Graduation Icon">
+              </div>
+            </div>
+          </div>
+          <div class="cs_slide">
+            <div class="cs_card cs_style_2 position-relative">
+              <div class="cs_card_thumbnail cs_bg_filed cs_radius_15" data-src="assets/img/service_img_1.jpg">
+                <img src="assets/img/ser-3.webp" alt="Service Image">
+              </div>
+              <div class="cs_card_info position-absolute">
+                <h3 class="cs_card_title cs_fs_37 cs_semibold cs_white_color">Healthcare Services</h3>
+                <p class="cs_card_subtitle cs_white_color mb-0">KMCC engages in health initiatives, offering medical camps, awareness programs, and support for those in need of healthcare services.</p>
+              </div>
+              <div class="cs_card_icon cs_center position-absolute">
+                <img src="assets/img/healthcare.png" alt="Doctor Icon">
+
+              </div>
+            </div>
+          </div>
+          <div class="cs_slide">
+            <div class="cs_card cs_style_2 position-relative">
+              <div class="cs_card_thumbnail cs_bg_filed cs_radius_15" data-src="assets/img/service_img_1.jpg">
+                <img src="assets/img/ser-4.webp" alt="Service Image">
+              </div>
+              <div class="cs_card_info position-absolute">
+                <h3 class="cs_card_title cs_fs_37 cs_semibold cs_white_color">Social Justice</h3>
+                <p class="cs_card_subtitle cs_white_color mb-0">The organization advocates for social justice, working to uplift marginalized communities and address issues of inequality and discrimination.</p>
+              </div>
+              <div class="cs_card_icon cs_center position-absolute">
+                <img src="assets/img/social-justice.png" alt="Plant Icon">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cs_slider_arrows cs_style_1">
+          <div class="cs_arrow_wrap cs_arrow_wrap_left cs_center">
+            <div class="cs_left_arrow rounded-circle cs_center slick-arrow">
+              <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.9219 38.2257L29.6798 51.9836L31.7419 49.9216L18.2786 36.4553L55.4165 36.4553L55.4165 33.5386L18.2728 33.5386L31.7419 20.0724L29.6798 18.0103L15.9219 31.7653C15.0586 32.6286 14.5832 33.7778 14.5832 34.997C14.5832 36.2161 15.0586 37.3653 15.9219 38.2228V38.2257Z"
+                  fill="currentColor" />
+              </svg>
+            </div>
+          </div>
+          <div class="cs_arrow_wrap cs_arrow_wrap_right cs_center">
+            <div class="cs_right_arrow rounded-circle cs_center slick-arrow">
+              <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.9219 38.2257L29.6798 51.9836L31.7419 49.9216L18.2786 36.4553L55.4165 36.4553L55.4165 33.5386L18.2728 33.5386L31.7419 20.0724L29.6798 18.0103L15.9219 31.7653C15.0586 32.6286 14.5832 33.7778 14.5832 34.997C14.5832 36.2161 15.0586 37.3653 15.9219 38.2228V38.2257Z"
+                  fill="currentColor" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="cs_height_150 cs_height_lg_80"></div>
+  </section>
+  <!-- End Testimonial Section -->
+  <!-- Start CTA Section -->
+  <section class="cs_cta cs_style_1 position-relative">
+    <div class="cs_height_150 cs_height_lg_80"></div>
+    <div class="container">
+      <div class="cs_cta_content_wrapper">
+        <div class="cs_cta_text">
+          <h3 class="cs_cta_subtitle cs_fs_28 cs_heading_color cs_normal">Be a catalyst for positive change by joining our community and making a difference through donations.</h3>
+          <div class="cs_funfact cs_style_1">
+            <h2 class="cs_funfact_number cs_fs_140 cs_bold cs_heading_color">
+
+              <span class="odometer" data-count-to="122450000"></span>
+              <span>+</span>
+            </h2>
+            <p class="cs_sunfact_title cs_fs_28 cs_heading_color cs_heading_font">Joining Our Community Now</p>
+          </div>
+          <a href="#contact" class="cs_btn cs_style_1 cs_orange_bg cs_fs_16 cs_bold cs_white_color cs_dark_hover cs_radius_30"><span class="cs_btn_text">Join As A Volunteer</span>
+          </a>
+        </div>
+        <div class="cs_cta_img_wrapper">
+          <div class="cs_cta_img wow fadeInLeft">
+            <img src="assets/img/cta-1.webp" alt="Image">
+          </div>
+          <div class="cs_cta_img wow fadeInRight">
+            <img src="assets/img/cta-2.webp" alt="Image">
+          </div>
+          <div class="cs_cta_img wow fadeInRight">
+            <img src="assets/img/cta-3.webp" alt="Image">
+          </div>
+          <div class="cs_cta_img wow fadeInLeft">
+            <img src="assets/img/cta-4.webp" alt="Image">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cs_cta_shape_1 cs_radius_50 position-absolute"></div>
+    <div class="cs_height_150 cs_height_lg_80"></div>
+  </section>
+  <!-- End CTA Section -->
+
+
+  <!-- Start Contact -->
+  <section class="cs_contact_section cs_style_1 cs_gray2_bg" id="contact">
+    <div class="cs_height_0 cs_height_lg_80"></div>
+    <div class="container">
+      <div class="row cs_gap_y_40">
+        <div class="col-lg-6">
+          <div class="cs_half_screen_left">
+            <div class="cs_contact_left_img cs_bg_filed" data-src="assets/img/contact-img.png"></div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="cs_height_90 cs_height_lg_0"></div>
+          <div class="cs_contact_right">
+            <div class="cs_section_heading cs_style_1">
+              <h3 class="cs_section_subtitle cs_fs_21 cs_semibold cs_orange_color">Contact Us</h3>
+              <h2 class="cs_section_title cs_fs_67 mb-0 wow pulse">Get in Touch with Our Team</h2>
+            </div>
+            <div class="cs_height_56 cs_height_lg_40"></div>
+            <form  action="#" method="POST" class="cs_contact_form" id="cs_form">
+              <input type="hidden" name="access_key" value="cd98b256-0db3-478c-ab28-1ec94f804124">
+
+              <input type="hidden" name="subject" value="Submission from Laralink Template">
+              <div class="cs_form_input_wrapper">
+                <input type="text" name="name" placeholder="Full Name *" required class="cs_form_field cs_radius_15">
+              </div>
+              <div class="cs_form_input_wrapper">
+                <input type="email" name="email" placeholder="Email Address *" required
+                  class="cs_form_field cs_radius_15">
+              </div>
+              <div class="cs_form_input_wrapper">
+                <input type="text" name="phone" placeholder="Mobile Number *" required
+                  class="cs_form_field cs_radius_15">
+              </div>
+              <div class="cs_form_input_wrapper">
+                <textarea name="message" rows="6" class="cs_form_field cs_radius_15" placeholder="Write your comment*"></textarea>
+              </div>
+              <div class="cs_form_input_wrapper">
+                <button type="submit" class="cs_btn cs_style_1 cs_accent_bg cs_fs_16 cs_bold cs_white_color cs_radius_30 cs_heading_font"><span class="cs_btn_text">Send Message</span>
+                </button>
+                <div class="cs_fs_14 cs_blue_color mt-3" id="cs_result"></div>
+              </div>
+            </form>
+          </div>
+          <div class="cs_height_90 cs_height_lg_0"></div>
+        </div>
+      </div>
+    </div>
+    <div class="cs_height_0 cs_height_lg_80"></div>
+  </section>
+  <!-- End Contact -->
+
+
+  <!-- Start Footer Section -->
+   <footer class="cs_footer cs_style_1 cs_heading_bg cs_bg_filed" >
+    <div class="container" >
+
+      <div class="cs_newsletter cs_style_1 cs_orange_bg cs_radius_15 position-relative wow fadeInDown" style="background-color: #03816e;">
+        <div class="cs_newsletter_left">
+          <h2 class="cs_newsletter_title cs_fs_28 cs_bold cs_white_color">Be a Part of Us. Apply KMCC Family Care</h2>
+
+        </div>
+        <button class="cs_btn cs_style_1 cs_modal_btn cs_accent_bg cs_fs_16 cs_bold cs_white_color cs_radius_30"
+              data-modal="donation"><span class="cs_btn_text">REGISTER NOW</span></button>
+        <div class="cs_newsletter_shape_1 position-absolute">
+          <img src="assets/img/leaf_shape.svg" alt="Leaf Shape">
+        </div>
+        <div class="cs_newsletter_shape_2 position-absolute">
+          <img src="assets/img/leaf_shape.svg" alt="Leaf Shape">
+        </div>
+        <div class="cs_newsletter_shape_3 position-absolute">
+          <img src="assets/img/leaf_shape.svg" alt="Leaf Shape">
+        </div>
+      </div>
+
+    </div>
+    <div class="container cs_white_color">
+      <div class="cs_footer_row">
+        <div class="cs_footer_col">
+          <div class="cs_footer_widget">
+            <div class="cs_footer_text_widget cs_gray_color">
+              <img src="assets/img/kmcc-logo.png" alt="Logo">
+              <p>We're committed to environmental awareness and action. Join us in making a difference.</p>
+            </div>
+            <div class="cs_social_btns cs_style_1">
+              <a href="#" class="cs_center cs_orange_bg cs_radius_50 cs_fs_14 cs_white_color">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="cs_center cs_orange_bg cs_radius_50 cs_fs_14 cs_white_color">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="cs_center cs_orange_bg cs_radius_50 cs_fs_14 cs_white_color">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="#" class="cs_center cs_orange_bg cs_radius_50 cs_fs_14 cs_white_color">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cs_footer_col">
+          <div class="cs_footer_widget">
+            <h2 class="cs_footer_widget_title cs_fs_21 cs_white_color cs_medium cs_body_font">Useful Links</h2>
+            <ul class="cs_footer_widget_menu cs_gray_color">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Donation</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="cs_footer_col">
+          <div class="cs_footer_widget">
+            <h2 class="cs_footer_widget_title cs_fs_21 cs_white_color cs_medium cs_body_font">Services</h2>
+            <ul class="cs_footer_widget_menu cs_gray_color">
+              <li>Educational Support</li>
+              <li>Healthcare Service</li>
+              <li>Cultural Presentaion</li>
+              <li>Social Justice</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cs_footer_col">
+          <div class="cs_footer_widget">
+            <h2 class="cs_footer_widget_title cs_fs_21 cs_white_color cs_medium cs_body_font">Contact Info</h2>
+            <ul class="cs_footer_widget_menu cs_gray_color">
+              <li>996W+F8H - Al Naba'a - Al Sharq - Sharjah - United Arab Emirates</li>
+              <li><a href="tel:+444547800112">+44 454 7800 112</a></li>
+              <li><a href="mailto:infodesk@Donaty.com">kmcc@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cs_footer_bottom cs_white_color">
+      <div class="container">
+        <div class="cs_footer_bottom_in">
+          <p class="cs_copyright mb-0">All Right Reserved Copyright © 2024 <a href="#">Kyle Solutions pvt ltd</a></p>
+          <ul class="cs_footer_widget_menu">
+            <li><a href="#">Privacy & Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+  <!-- Start Donation modal -->
+  <div class="cs_modal cs_size_sm" data-modal="donation">
+    <div class="cs_close_overlay"></div>
+    <div class="cs_modal_in">
+      <div class="cs_modal_container cs_gray_bg cs_radius_15">
+        <button class="cs_close_modal cs_center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <form id="membership" action="#" class="cs_donate_form_1 row">
+          <img src="assets/img/kmcc-logo.png" alt=""  style="margin: auto;display: flex;width: 120px;">
+          <h2 class="cs_form_heading cs_fs_37 text-center mb-0">Please fill with your details</h2>
+          <div class="cs_height_50 cs_height_lg_40"></div>
+          <div class="col-md-6 col-12">
+            <input id="first_name" class="cs_input_amount cs_white_bg cs_body_color cs_radius_15" type="text"
+                   placeholder="First Name" required>
+          </div>
+          <div class="col-md-6 col-12">
+            <input id="last_name" class="cs_input_amount cs_white_bg cs_body_color cs_radius_15" type="text"
+                   placeholder="Last Name" required>
+          </div>
+          <div class="col-md-6 col-12">
+            <input id="phone" class="cs_input_amount cs_white_bg cs_body_color cs_radius_15" type="text"
+                   placeholder="Phone" required>
+          </div>
+          <div class="col-md-6 col-12">
+            <input id="email" class="cs_input_amount cs_white_bg cs_body_color cs_radius_15" type="email"
+                   placeholder="Email" required>
+          </div>
+          <div class="col-md-6 col-12">
+            <input id="iqama_number" class="cs_input_amount cs_white_bg cs_body_color cs_radius_15" type="text"
+                   placeholder="Iqama number" required>
+          </div>
+          <div class="col-md-6 col-12">
+            <select id="blood_group" class="form-select cs_input_amount cs_white_bg cs_body_color cs_radius_15"
+                    aria-label="Select Blood Group">
+              <option selected>Select Blood Group</option>
+              <option>A+ve</option>
+              <option>B+ve</option>
+              <option>A-ve</option>
+              <option>O+ve</option>
+            </select>
+          </div>
+          <div class="col-md-4 col-12">
+            <input id="age" class="cs_input_amount cs_white_bg cs_body_color cs_radius_15" type="text"
+                   placeholder="Age" required>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="terms">
+              <label class="form-check-label" for="terms">
+                I Accept The Terms & Conditions
+              </label>
+            </div>
+          </div>
+          <div class="cs_height_50 cs_height_lg_40"></div>
+          <button class="cs_btn cs_style_1 cs_accent_bg cs_bold cs_white_color cs_radius_30 w-100" type="submit" id="submit-btn"><span class="cs_btn_text">Register Now</span>
+          </button>
+        </form>
+        <div class="cs-height_100 cs-height_lg_70"></div>
+      </div>
+    </div>
+  </div>
+  <!-- End Donation modal -->
+  <!-- Start Scroll Up Button -->
+  <div class="cs_scrollup cs_orange_bg cs_white_color cs_center cs_radius_50">
+    <i class="fa-solid fa-hand-point-up"></i></div>
+  <!-- End Scroll Up Button -->
+  <!-- Script -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/jquery.slick.min.js"></script>
+  <script src="assets/js/odometer.js"></script>
+  <script src="assets/js/light-gallery.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
+
+{%- endblock -%}
